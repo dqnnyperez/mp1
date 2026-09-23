@@ -586,6 +586,32 @@ button {
   text-transform: uppercase;
 }
 
+.research-section {
+  background: #f5f5f5;
+}
+
+.research-frame {
+  display: block;
+  width: 100%;
+  height: 600px;
+  margin-top: 1.5rem;
+  border: 1px solid #111111;
+  background: #ffffff;
+}
+
+.research-page h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(3rem, 8vw, 7rem);
+  line-height: 0.9;
+  letter-spacing: -0.07em;
+}
+
+.research-intro {
+  max-width: 520px;
+  margin: 0 0 2rem;
+  color: #555555;
+}
+
 .parallax-section {
   position: relative;
   min-height: 440px;

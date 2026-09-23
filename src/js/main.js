@@ -9,6 +9,10 @@ const modalOverlays = document.querySelectorAll('.modal-overlay');
 const modalCloses = document.querySelectorAll('.modal-close');
 
 function updateHeaderState() {
+  if (!header) {
+    return;
+  }
+
   if (window.scrollY > 32) {
     header.classList.add('scrolled');
   } else {
@@ -17,6 +21,10 @@ function updateHeaderState() {
 }
 
 function updateActiveNav() {
+  if (!header) {
+    return;
+  }
+
   const scrollPosition = window.scrollY + 150;
   let currentId = 'home';
 
