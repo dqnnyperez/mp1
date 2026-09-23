@@ -43,11 +43,6 @@ module.exports = {
       template: "index.html",
       inject: 'body',
     }),
-    new HtmlWebpackPlugin({
-      template: "research.html",
-      filename: "research.html",
-      inject: 'body',
-    }),
   ],
   output: {
     filename: 'bundle.js',
